@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en" class="bg-body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon-C4jYSXJY.png" />
+    <title>Epic Games Store</title>
+    <script async type="module" crossorigin src="./assets/index-D8mweaUS.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-eW3j8xyu.css">
+  </head>
+  <body>
+    <div id="goTop" class="w-[0] h-[0]"></div>
+    <div class="preLoader w-[100%] h-[100vh] fixed top-0 left-0 flex flex-col flex-nowrap justify-center items-center gap-[60px] bg-body z-[200]">
+      <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%20fill='white'%20height='32'%20width='32'%20%3e%3cpath%20d='M12.349%2021l-.39.982h.773L12.349%2021zm2.29-10.224V7.909c0-.457-.21-.668-.648-.668h-.713v4.204h.713c.438%200%20.648-.212.648-.668zm11.698-9.019H5.36c-1.702%200-2.328.627-2.328%202.328v20.526l.025.537c.038.372.047.732.392%201.14a7.23%207.23%200%200%200%20.387.302l.533.248%2010.329%204.327c.537.245.76.342%201.15.333h.003c.39.008.613-.088%201.15-.333l10.329-4.327.533-.248.387-.302c.345-.41.353-.77.392-1.14a5.28%205.28%200%200%200%20.025-.537V4.086c0-1.702-.628-2.328-2.328-2.328h-.002zm-9.181%203.952h1.735v11.404h-1.735V5.709zm.117%2014.181h1.01v3.45h-.952v-1.982l-.882%201.35h-.02l-.877-1.34v1.972h-.937v-3.45h1.01l.823%201.337.823-1.337zm-5.73-14.181h2.723c1.41%200%202.108.7%202.108%202.118v3.03c0%201.417-.697%202.118-2.108%202.118h-.988v4.139h-1.735V5.709zm-4.729%200h3.859v1.58H8.549v3.225h2.043v1.58H8.549v3.438h2.157v1.58H6.814V5.709zm3.317%2017.169c-.365.3-.873.532-1.498.532-1.075%200-1.878-.74-1.878-1.785v-.01c0-1.005.788-1.795%201.858-1.795.607%200%201.035.187%201.4.503l-.562.675c-.247-.207-.493-.325-.833-.325-.498%200-.882.418-.882.947v.01a.91.91%200%200%200%20.937.957c.232%200%20.41-.05.552-.143v-.418h-.68v-.7h1.587v1.553zm1.765-3.012h.922l1.468%203.475h-1.025l-.252-.617h-1.332l-.247.617h-1.005l1.468-3.475h.002zm3.874%209.231l-4.862-1.672h9.931l-5.069%201.672zm5.947-5.755h-2.8v-3.45h2.775v.813h-1.828v.523h1.657v.755h-1.657v.547h1.854v.813-.002zm-1.907-8.249V7.729c0-1.417.697-2.118%202.108-2.118h.843c1.41%200%202.092.685%202.092%202.102v2.33h-1.702V7.811c0-.457-.212-.668-.648-.668h-.292c-.453%200-.665.212-.665.668v7.2c0%20.457.212.668.665.668h.325c.438%200%20.648-.212.648-.668v-2.573h1.702v2.655c0%201.417-.697%202.119-2.108%202.119h-.86c-1.41%200-2.108-.7-2.108-2.119zm5.165%207.184c0%20.705-.557%201.123-1.395%201.123-.612%200-1.193-.192-1.617-.572l.532-.637a1.77%201.77%200%200%200%201.118.413c.257%200%20.395-.088.395-.237v-.01c0-.143-.113-.222-.582-.33-.735-.168-1.302-.375-1.302-1.085v-.01c0-.642.508-1.105%201.337-1.105.587%200%201.045.158%201.42.458l-.478.675c-.315-.222-.66-.34-.967-.34-.232%200-.345.098-.345.222v.01c0%20.158.118.227.597.335.793.173%201.287.428%201.287%201.075v.01.003z'%20%3e%3c/path%3e%3c/svg%3e" alt="" class="lg:w-[14%] xs:w-[25%] text-textWhite" />
+      <span class="loading loading-spinner xl:loading-lg lg:loading-md xs:loading-sm !text-textWhite"></span>
+    </div>
+
+    <!-- header start -->
+    <header class="bg-menu flexR relative z-30 h-[72px] w-[100%] justify-between px-[20px] py-[20px]">
+      <nav class="flexR gap-[24px]">
+        <!-- logo dropdown satrt -->
+        <div class="border-r-solid border-r-line relative flex h-[100%] w-[78px] items-center justify-start border-r-[2px]">
+          <div id="logoBtnClose" class="hideMenu"></div>
+          <div id="logoDropBtn" class="flexR group h-[100%] w-[60px] cursor-pointer items-center justify-between gap-[14px]"></div>
+        </div>
+        <ul id="menuDrop" class="hideMenu z-[3] absolute overflow-scroll lg:h-[61vh] xs:h-[80vh] widthFix p-[40px] !pb-0 bg-logoDrop top-[90px] left-[20px] rounded-[16px] border-b-[40px] border-b-[solid] border-b-logoDrop">
+          <div class="w-[100%] lg:min-h-[445px] lg:flexR xs:flexC gap-[30px]">
+            <div class="w-[100%] h-auto flexC gap-[30px] justify-start items-start">
+              <!-- play -->
+              <div class="w-[100%] h-fit flexC relative">
+                <p class="tittle">Play</p>
+                <div id="menuPlay" class="w-[100%] flexC"></div>
+              </div>
+
+              <!-- discover -->
+              <div class="w-[100%] h-fit flexC">
+                <p class="tittle">Discover</p>
+                <div id="menuDiscover" class="w-[100%] flexC"></div>
+              </div>
+            </div>
+            <!-- create -->
+            <div class="w-[100%] h-fit flexC">
+              <p class="tittle">Create</p>
+              <div id="menuCreate" class="w-[100%] flexC"></div>
+            </div>
+          </div>
+        </ul>
+        <!-- logo dropdown end -->
+        <!-- navMenu start -->
+        <div id="navMenu" class="flexR h-[100%] items-center justify-start">
+          <!-- store btn -->
+          <a id="storeBtn" href="#" class="duration-[300ms] absolute storeMoveRight mr-[20px] flex h-[32px] w-[54px] z-[12]"> </a>
+          <!-- rest of btns in xxl -->
+          <div id="restBtnMenu" class="ml-[78px] h-[100%] flexR justify-center items-center xs:hidden xxl:flex"></div>
+        </div>
+        <!-- navMenu end -->
+        <!-- burger menu start -->
+        <div id="burgerMenu" class="w-[48px] h-[48px] p-[12px] absolute right-[15px] top-[12px] rotate-0 cursor-pointer justify-center items-center xs:flex xxl:hidden">
+          <i class="fa-light fa-bars text-textWhite text-[24px]"></i>
+        </div>
+        <div id="burgerClose" class="hideBurger rotate-0 w-[48px] h-[48px] z-[12] p-[12px] flex justify-center items-center absolute right-[15px] top-[12px] cursor-pointer">
+          <i class="fa-light fa-xmark text-textWhite text-[24px]"></i>
+        </div>
+        <div id="burgerDrop" class="hideBurgerDrop hideBurger absolute w-[100%] h-[100vh] top-0 left-0 bg-[#101015] z-[11] xs:flex xxl:hidden">
+          <div id="burgerItems" class="w-[100%] h-[100%] flexC relative hideBurgerItems">
+            <div class="w-[100%] h-[72px] flex justify-center items-center">
+              <a href="#" class="bg-line group flex h-[32px] w-[32px] items-center justify-center rounded-[50%] duration-300">
+                <i class="fa-light fa-user text-textGray group-hover:text-textWhite text-[14px] duration-300"></i>
+              </a>
+            </div>
+            <div id="burgerBtn" class="w-[100%] pt-[8px] px-[24px] pb-[30px] flexC justify-center items-center gap-[16px]"></div>
+            <div id="burgerBg" class="w-[100%] h-[46px] flex flex-auto justify-center items-start relative"></div>
+            <a href="#" class="z-[12] absolute top-[300px] leftFix w-[300px] h-[46px] bg-btnBlue flex justify-center items-center rounded-[8px] p-[16px] duration-300 hover:bg-btnBlueHover"><span class="font-[inter] text-[14px] text-textBlack font-normal capitalize">download</span></a>
+          </div>
+        </div>
+        <!-- burger menu end -->
+      </nav>
+      <!-- download and account in xxl start -->
+      <div class="flexR h-[100%] justify-end gap-[20px] xs:hidden xxl:flex">
+        <a href="#" class="bg-line group flex h-[32px] w-[32px] items-center justify-center rounded-[50%] duration-300">
+          <i class="fa-light fa-user text-textGray group-hover:text-textWhite text-[14px] duration-300"></i>
+        </a>
+        <a href="#" class="text-textBlack bg-btnBlue hover:bg-btnBlueHover flex h-[100%] items-center justify-center rounded-[8px] px-[12px] py-[4px] font-[inter] text-[14px] capitalize"><span>download</span></a>
+      </div>
+      <!-- download and account in xxl end -->
+    </header>
+    <!-- header end -->
+
+    <!-- sub menu start -->
+
+    <div id="subMenu" class="w-[100%] h-[100px] bg-body sticky top-0 z-20">
+      <div id="dropBg" class="hideMenu z-[30]"></div>
+      <div id="defBg" class="hide w-[100%] h-[100vh] z-[1] bg-[#000000b3] absolute top-0 left-0 xs:flex xl:!hidden"></div>
+      <div id="defBgSub" class="hide w-[100%] h-[100vh] z-[1] bg-[#000000b3] absolute top-0 left-0 xs:flex xl:!hidden"></div>
+      <div class="wrapper w-[100%] h-[100%] flexR xl:justify-start xs:justify-center items-center gap-[30px] relative">
+        <!-- search xl -->
+        <label id="searchLabel" for="search" class="xs:hidden xl:flex w-[230px] h-[40px] rounded-[20px] flexR justify-start items-center gap-[10px] bg-elemBg duration-300 cursor-text relative">
+          <!-- magnifying icon -->
+          <div class="!ml-[18px] h-[40px] flex justify-center items-center">
+            <i class="fa-light fa-magnifying-glass text-placeHolder text-[14px]"></i>
+          </div>
+          <!-- input -->
+          <input id="search" type="text" class="text-[14px] text-textWhite font-[inter] flex-grow mr-[12px] bg-transparent focus:outline-0 placeholder:capitalize placeholder:text-placeHolder placeholder:font-[inter] placeholder:text-[14px]" placeholder="search store" />
+
+          <div id="serchResCon" class="hide w-[200%] absolute rounded-[16px] top-[48px] left-[0] z-[5] bg-elemBg p-[12px] flexC justify-start items-start cursor-default">
+            <div id="searchRes" class="w-[100%] flexC justify-start items-start"></div>
+          </div>
+        </label>
+
+        <!-- search xs -->
+        <div id="searchDivXs" for="searchXs" class="xs:flex xl:hidden w-[40px] h-[40px] absolute left-0 rounded-[20px] flexR justify-between items-center hover:bg-elemBg cursor-pointer group duration-300 z-20">
+          <label for="searchXs" id="searchLabelXs" class="flexR gap-[14px] justify-start items-center flex-grow">
+            <!-- magnifying icon -->
+            <div id="subMagXs" class="w-[40px] h-[40px] flex justify-center items-center cursor-pointer">
+              <i class="fa-light fa-magnifying-glass text-placeHolder text-[15px] group-hover:text-textWhite duration-300 down"></i>
+            </div>
+
+            <!-- input -->
+            <input id="searchXs" type="text" class="hide text-[14px] text-textWhite font-[inter] flex-grow bg-transparent focus:outline-0 placeholder:capitalize placeholder:text-placeHolder placeholder:font-[inter] placeholder:text-[14px]" placeholder="search store" />
+          </label>
+
+          <!-- serach close btn -->
+          <div id="searchClose" class="hide w-[40px] h-[40px] flex justify-center items-center cursor-pointer">
+            <i class="fa-light fa-xmark text-textWhite text-[15px] szFix"></i>
+          </div>
+
+          <div id="serchResConXs" class="hide min-w-[100%] absolute rounded-[16px] top-[48px] left-[0] z-[5] bg-elemBg p-[12px] flexC justify-start items-start cursor-default">
+            <div id="searchResXs" class="w-[100%] flexC justify-start items-start"></div>
+          </div>
+        </div>
+
+        <!-- subMenu nav xxl -->
+        <div id="subMenuNavxxl" class="flexR justify-center items-center duration-300 xs:hidden xxl:flex"></div>
+
+        <!-- subMenu nav lg -->
+        <div id="subMenuNavlg" class="z-[2] flexR py-[8px] px-[14px] gap-[6px] justify-center items-center duration-300 cursor-pointer xs:hidden xl:flex xxl:hidden group relative">
+          <div id="subXsTitlelg" class="flex justify-center items-center duration-300"></div>
+
+          <div id="subArrowlg" class="h-[100%] flex justify-center items-center mt-[3px]"><i id="subArrowSVG" class="fa-regular fa-angle-down down text-[13px] duration-300 group-hover:text-textWhite text-textGray"></i></div>
+
+          <!-- sub drop down xl -->
+          <div id="subDropDownlg" class="hide w-[180px] flexC justify-center items-start py-[10px] px-[20px] rounded-[8px] bg-elemBg absolute top-[50px] left-0 !cursor-default"></div>
+        </div>
+
+        <!-- subMenu nav xs -->
+        <div id="subMenuNavxs" class="z-[2] w-[100%] h-[100%] felx justify-center items-center xs:flex xl:hidden">
+          <div id="subMenuNavxsBtn" class="z-[2] flexR py-[8px] px-[14px] gap-[6px] justify-center items-center duration-300 cursor-pointer group relative">
+            <div id="subXsTitlexs" class="flex justify-center items-center duration-300"></div>
+
+            <div id="subArrowxs" class="h-[100%] flex justify-center items-center mt-[3px]"><i id="subArrowSVG" class="fa-regular fa-angle-down down text-[13px] duration-300 group-hover:text-textWhite text-textGray"></i></div>
+          </div>
+          <!-- sub drop down xs -->
+          <div id="subDropDownxs" class="hide w-[100%] flexC justify-center items-start py-0 px-[26px] rounded-[8px] bg-elemBg absolute top-[90px] left-0 !cursor-default"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- sub menu end -->
+
+    <!-- heroSlider start -->
+
+    <div id="heroCon" class="w-[100%] wrapper flexR justify-center items-stretch gap-[30px] lg:flex xs:hidden">
+      <!-- slides -->
+      <div id="heroSlides" class="h-[100%] rounded-[16px] overflow-hidden">
+        <div class="swiper mySwiper1">
+          <div class="swiper-wrapper heroSlides"></div>
+        </div>
+      </div>
+
+      <!-- paginations -->
+      <div id="heroPaginations" class="flexC">
+        <div class="swiper-pagination1 w-[100%] h-[100%] flexC items-center justify-between gap-[4px] flex-grow-1"></div>
+      </div>
+    </div>
+
+    <!-- heroSlider end -->
+
+    <!-- heroSlider xs start -->
+
+    <div class="w-[100%] wrapper flexC gap-[15px] justify-center items-center relative lg:hidden xs:flex">
+      <div class="swiper mySwiper1xs">
+        <div class="swiper-wrapper heroSlidesXs"></div>
+      </div>
+      <div class="swiper-pagination1xs !flex !items-center my-[15px] !justify-center !relative"></div>
+    </div>
+
+    <!-- heroSlider xs end -->
+
+    <!-- featured discounts start -->
+
+    <div id="featuredDiscounts" class="wrapper w-[100%] flexC gap-[20px] justify-start items-start !mt-[40px]">
+      <div class="top w-[100%] flexR justify-between items-center relative">
+        <a href="#" class="flexR justify-center items-center gap-[6px] group duration-300">
+          <span class="text-textWhite text-[18px] font-[inter] capitalize">featured discounts</span>
+          <i class="fa-regular fa-angle-right !text-textWhite !text-[14px] group-hover:translate-x-[10px] duration-300"></i>
+        </a>
+        <div class="btns h-[30px] w-[70px] flex justify-center items-center gap-[10px] relative">
+          <div class="swiper-button-prev"><i class="fa-regular fa-angle-left arrowBtn"></i></div>
+          <div class="swiper-button-next"><i class="fa-regular fa-angle-right arrowBtn"></i></div>
+        </div>
+      </div>
+      <div class="carousel w-[100%]">
+        <div class="swiper mySwiperCarousel1">
+          <div class="swiper-wrapper carousel1"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- featured discounts end -->
+
+    <!-- deals of the week start -->
+    <div id="dealsOfWeek" class="wrapper"></div>
+    <!-- deals of the week end -->
+
+    <!-- free games start -->
+    <div id="freeGames" class="wrapper flexC justify-center items-center !mt-[60px] !mb-[50px]">
+      <div class="top w-[100%] flexR justify-between items-center bg-focus xxl:pt-[30px] xxl:px-[40px] xs:pt-[15px] xs:px-[20px]">
+        <div class="title flexR justify-start items-center gap-[15px] w-fit">
+          <svg xmlns="http://www.w3.org/2000/svg" class="svg css-uwwqev xxl:w-[35px] xxl:h-[35px] xs:w-[20px] xs:h-[20px] text-textWhite" viewBox="0 0 32 32">
+            <g fill="currentColor" fill-rule="evenodd">
+              <path
+                d="M30.443 16.605H19.72v-3.46h10.724v3.46zm-2.075 12.308c0 .397-.576.838-1.402.838h-7.247V17.99h8.648v10.924zm-14.876.838h4.843v-18.68h-4.843v18.68zm-10.033-.838V17.99h8.649v11.762H4.861c-.826 0-1.402-.441-1.402-.838zM1.384 13.146h10.724v3.46H1.384v-3.46zm1.773-4.324c0-1.622 1.319-2.94 2.94-2.94 2.752 0 5.093 3.78 5.575 5.88H6.097a2.944 2.944 0 0 1-2.94-2.94zm22.573-2.94c1.621 0 2.94 1.318 2.94 2.94 0 1.621-1.319 2.94-2.94 2.94h-5.574c.481-2.1 2.822-5.88 5.574-5.88zm5.405 5.88h-2.244a4.304 4.304 0 0 0 1.163-2.94 4.329 4.329 0 0 0-4.324-4.325c-2.89 0-5.227 2.813-6.341 5.294a.686.686 0 0 0-.362-.105H12.8a.686.686 0 0 0-.362.105c-1.114-2.481-3.45-5.294-6.34-5.294a4.329 4.329 0 0 0-4.325 4.325c0 1.136.444 2.168 1.163 2.94H.692a.692.692 0 0 0-.692.692v4.843c0 .382.31.692.692.692h1.384v10.924c0 1.246 1.223 2.222 2.785 2.222h22.105c1.562 0 2.785-.976 2.785-2.222V17.99h1.384c.382 0 .692-.31.692-.692v-4.843a.692.692 0 0 0-.692-.692zM15.914 4.151c.381 0 .691-.31.691-.692V.692a.692.692 0 0 0-1.383 0v2.767c0 .382.31.692.692.692"
+              ></path>
+              <path d="M19.546 5.362a.69.69 0 0 0 .49-.203l1.037-1.037a.692.692 0 1 0-.978-.979l-1.038 1.038a.692.692 0 0 0 .489 1.181M11.792 5.16a.69.69 0 0 0 .978 0 .692.692 0 0 0 0-.979l-1.038-1.038a.692.692 0 1 0-.978.979l1.038 1.037z"></path>
+            </g>
+          </svg>
+          <p class="text-textWhite xxl:text-[18px] xs:text-[16px] capitalize font-[inter] xxl:mt-[10px] xs:mt-[5px]">free games</p>
+        </div>
+
+        <a href="#" class="rounded-[4px] border-[1px] border-textWhite xxl:py-[8px] xxl:px-[16px] xs:py-[6px] xs:px-[12px] flex justify-center items-center hover:bg-btnHoverWhite duration-300">
+          <span class="font-[inter] text-textWhite xxl:text-[14px] xs:text-[12px] uppercase">view more</span>
+        </a>
+      </div>
+
+      <div id="freeGamesBottom" class="w-[100%] bg-focus xxl:py-[30px] xxl:px-[40px] xs:py-[15px] xs:px-[20px] flexR xxl:gap-[30px] xs:gap-[20px] justify-start items-start"></div>
+    </div>
+    <!-- free games end -->
+
+    <!-- trending start -->
+    <div id="trending" class="wrapper w-[100%] flexC gap-[20px] justify-start items-start !mt-[40px]">
+      <div class="top w-[100%] flexR justify-between items-center relative">
+        <span class="text-textWhite text-[18px] font-[inter] capitalize">trending</span>
+        <a href="#" class="rounded-[4px] border-[1px] border-textWhite xxl:py-[8px] xxl:px-[16px] xs:py-[6px] xs:px-[12px] flex justify-center items-center hover:bg-btnHoverWhite duration-300">
+          <span class="font-[inter] text-textWhite xxl:text-[12px] xs:text-[12px] uppercase">view more</span>
+        </a>
+      </div>
+      <div class="carousel w-[100%]">
+        <div class="swiper mySwiperCarousel2">
+          <div class="swiper-wrapper carousel2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- trending end -->
+
+    <!-- game section start -->
+    <div id="gameSection" class="wrapper">
+      <div class="topGameeSection"></div>
+      <div class="bottomGameSection"></div>
+    </div>
+    <!-- game section end -->
+
+    <!-- thriple start -->
+    <div id="thriple" class="wrapper !mt-[100px] !mb-[100px] flex flex-row flex-nowrap justify-start items-start">
+      <div id="topSell" class="w-[33%] flexC gap-[15px] justify-start items-start px-[16px] border-r-[1px] border-r-[#3d3d3d]">
+        <div class="top w-[100%] flexR justify-between items-center px-[14px]">
+          <span class="font-[inter] text-[20px] capitalize text-textWhite">top sellers</span>
+          <a href="#" class="rounded-[4px] border-[1px] border-textWhite xxl:py-[6px] xxl:px-[12px] xs:py-[6px] xs:px-[12px] flex justify-center items-center hover:bg-btnHoverWhite duration-300">
+            <span class="font-[inter] text-textWhite xxl:text-[12px] xs:text-[12px] uppercase">view more</span>
+          </a>
+        </div>
+        <div class="bottomTopSell"></div>
+      </div>
+
+      <div id="mostPlay" class="w-[33%] flexC gap-[15px] justify-start items-start px-[16px] border-r-[1px] border-r-[#3d3d3d]">
+        <div class="top w-[100%] flexR justify-between items-center px-[14px]">
+          <span class="font-[inter] text-[20px] capitalize text-textWhite">most played</span>
+          <a href="#" class="rounded-[4px] border-[1px] border-textWhite xxl:py-[6px] xxl:px-[12px] xs:py-[6px] xs:px-[12px] flex justify-center items-center hover:bg-btnHoverWhite duration-300">
+            <span class="font-[inter] text-textWhite xxl:text-[12px] xs:text-[12px] uppercase">view more</span>
+          </a>
+        </div>
+        <div class="bottomMostPlay"></div>
+      </div>
+
+      <div id="topWishlist" class="w-[33%] flexC gap-[15px] justify-start items-start px-[16px]">
+        <div class="top w-[100%] flexR justify-between items-center px-[14px]">
+          <span class="font-[inter] text-[20px] capitalize text-textWhite">top wishlisted</span>
+          <a href="#" class="rounded-[4px] border-[1px] border-textWhite xxl:py-[6px] xxl:px-[12px] xs:py-[6px] xs:px-[12px] flex justify-center items-center hover:bg-btnHoverWhite duration-300">
+            <span class="font-[inter] text-textWhite xxl:text-[12px] xs:text-[12px] uppercase">view more</span>
+          </a>
+        </div>
+        <div class="bottomTopWishlist"></div>
+      </div>
+    </div>
+
+    <!-- thriple end -->
+
+    <!-- footer start -->
+    <footer class="w-[100%] bg-[rgb(32,32,32)] pb-[50px] flexC justify-start items-start">
+      <div class="top wrapper w-[100%] flexR justify-between items-center !my-[40px]">
+        <div class="socials flexR justify-start items-center gap-[14px]"></div>
+        <a href="#goTop" class="w-[34px] h-[34px] rounded-[4px] border-[1px] border-[#ccc] flex justify-center items-center duration-300 hover:border-[#0078f2] group">
+          <i class="fa-regular fa-angle-up text-[#ccc] text-[20px] duration-300 group-hover:text-[#0078f2]"></i>
+        </a>
+      </div>
+
+      <div class="midTop wrapper w-[100%] max-w-[780px] flex flex-row flex-wrap gap-[20px] justify-start items-start !pb-[40px] border-b-[1px] border-b-[#333]">
+        <div class="resources w-fit h-fit felxC gap-[14px]">
+          <p class="title capitalize text-textGray text-[12px] font-[inter]">resources</p>
+          <div id="resources" class="grid grid-flow-row grid-rows-3 lg:grid-cols-3 xs:grid-cols-2"></div>
+        </div>
+
+        <div class="madeBy w-fit h-fit felxC gap-[14px]">
+          <p class="title capitalize text-textGray text-[12px] font-[inter]">Made by epic games</p>
+          <div id="madeBy" class="grid grid-flow-row grid-rows-3 grid-cols-2"></div>
+        </div>
+      </div>
+
+      <div class="bottom wrapper w-[100%]">
+        <p class="descriptionFoot text-[12px] font-[inter] text-[#ccc] mt-[40px]"></p>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
