@@ -1,0 +1,786 @@
+{
+  "logo": {
+    "id": 1,
+    "logo": "./public/images/menu/logo.svg",
+    "dropDownPlay": [
+      {
+        "id": 1,
+        "imageSVG": "./public/images/menu/fortnite.svg",
+        "des": "fortnite"
+      },
+      {
+        "id": 2,
+        "imageSVG": "./public/images/menu/rocketLeague.svg",
+        "des": "rocket league"
+      },
+      {
+        "id": 3,
+        "imageSVG": "./public/images/menu/fallGuys.svg",
+        "des": "fall guys"
+      }
+    ],
+    "dropDownDiscover": [
+      {
+        "id": 1,
+        "imageSVG": "./public/images/menu/epic.svg",
+        "des": "epic games store"
+      },
+      {
+        "id": 2,
+        "imageSVG": "./public/images/menu/fab.svg",
+        "des": "fab"
+      },
+      {
+        "id": 3,
+        "imageSVG": "./public/images/menu/sketchFab.svg",
+        "des": "sketchfab"
+      },
+      {
+        "id": 4,
+        "imageSVG": "./public/images/menu/artStation.svg",
+        "des": "ArtStation"
+      }
+    ],
+    "dropDownCreate": [
+      {
+        "id": 1,
+        "imageSVG": "./public/images/menu/unrealEngine.svg",
+        "des": "unreal engine"
+      },
+      {
+        "id": 2,
+        "imageSVG": "./public/images/menu/fortnite.svg",
+        "des": "create in fortnite"
+      },
+      {
+        "id": 3,
+        "imageSVG": "./public/images/menu/metaHuman.svg",
+        "des": "metaHuman"
+      },
+      {
+        "id": 4,
+        "imageSVG": "./public/images/menu/twinMotion.svg",
+        "des": "twinMotion"
+      },
+      {
+        "id": 5,
+        "imageSVG": "./public/images/menu/realityScan.svg",
+        "des": "realityScan"
+      },
+      {
+        "id": 6,
+        "imageSVG": "./public/images/menu/realityCapture.svg",
+        "des": "realityCapture"
+      },
+      {
+        "id": 7,
+        "imageSVG": "./public/images/menu/epic.svg",
+        "des": "Epic Online Services"
+      },
+      {
+        "id": 8,
+        "imageSVG": "./public/images/menu/epic.svg",
+        "des": "Publish on Epic Games Store"
+      },
+      {
+        "id": 9,
+        "imageSVG": "./public/images/menu/kidsWeb.svg",
+        "des": "Kids Web Services"
+      },
+      {
+        "id": 10,
+        "imageSVG": "./public/images/menu/epic.svg",
+        "des": "Developer Community"
+      }
+    ]
+  },
+  "storeBtn": {
+    "id": 1,
+    "store": "./public/images/menu/store.svg"
+  },
+  "navMenu": [
+    {
+      "id": 1,
+      "title": "Distribution"
+    },
+    {
+      "id": 2,
+      "title": "Support"
+    },
+    {
+      "id": 3,
+      "title": "Unreal Engine"
+    }
+  ],
+  "sunMenuNav": [
+    {
+      "id": 1,
+      "title": "discover"
+    },
+    {
+      "id": 2,
+      "title": "browse"
+    },
+    {
+      "id": 3,
+      "title": "news"
+    }
+  ],
+  "heroSlider": [
+    {
+      "id": 1,
+      "paginationTitle": "Frostpunk 2",
+      "paginationImage": "./public/images/heroSlider/xxl/pagination/image-1.png",
+      "imageXXL": "./public/images/heroSlider/xxl/image-1.png",
+      "imageXs": "./public/images/heroSlider/xs/image-1.png",
+      "logoImage": "./public/images/heroSlider/xxl/logos/image-1.png",
+      "title": "Coming July 25",
+      "description": "Discover a city-survival game set 30 years after an apocalyptic blizzard ravaged Earth.",
+      "price": "",
+      "priceTextXS": "",
+      "priceXS": "",
+      "discount": "",
+      "button": "wishlist now",
+      "addToWishList": "add to wish list"
+    },
+    {
+      "id": 2,
+      "paginationTitle": "Expeditions: A MudRunner Game",
+      "paginationImage": "./public/images/heroSlider/xxl/pagination/image-2.png",
+      "imageXXL": "./public/images/heroSlider/xxl/image-2.png",
+      "imageXs": "./public/images/heroSlider/xs/image-2.png",
+      "logoImage": "./public/images/heroSlider/xxl/logos/image-2.png",
+      "title": "Coming March 5",
+      "description": "Embark on scientific expeditions with this new off-road adventure from the creators of MudRunner and SnowRunner.",
+      "price": "Starting at $39.99",
+      "priceTextXS": "Starting at",
+      "priceXS": "$39.99",
+      "discount": "",
+      "button": "pre-purchase now",
+      "addToWishList": "add to wish list"
+    },
+    {
+      "id": 3,
+      "paginationTitle": "The Thaumaturge",
+      "paginationImage": "./public/images/heroSlider/xxl/pagination/image-3.png",
+      "imageXXL": "./public/images/heroSlider/xxl/image-3.png",
+      "imageXs": "./public/images/heroSlider/xs/image-3.png",
+      "logoImage": "./public/images/heroSlider/xxl/logos/image-3.png",
+      "title": "Now Available",
+      "description": "The Thaumaturge is a story-driven RPG with morally ambiguous choices in the culturally diverse world.",
+      "price": "Starting at $29.99",
+      "priceTextXS": "Starting at",
+      "priceXS": "$29.99",
+      "discount": "",
+      "button": "buy now",
+      "addToWishList": "add to wish list"
+    },
+    {
+      "id": 4,
+      "paginationTitle": "Rocket League",
+      "paginationImage": "./public/images/heroSlider/xxl/pagination/image-4.png",
+      "imageXXL": "./public/images/heroSlider/xxl/image-4.png",
+      "imageXs": "./public/images/heroSlider/xs/image-4.png",
+      "logoImage": "./public/images/heroSlider/xxl/logos/image-4.png",
+      "title": "New Season",
+      "description": "What will you uncover on your journey to the AquaDome? Kick off in the AquaDome and deck out your car in maritime items!",
+      "price": "Free",
+      "priceTextXS": "Free",
+      "priceXS": "",
+      "discount": "",
+      "button": "play for free",
+      "addToWishList": "add to wish list"
+    },
+    {
+      "id": 5,
+      "paginationTitle": "Ghost of Tsushima",
+      "paginationImage": "./public/images/heroSlider/xxl/pagination/image-5.png",
+      "imageXXL": "./public/images/heroSlider/xxl/image-5.png",
+      "imageXs": "./public/images/heroSlider/xs/image-5.png",
+      "logoImage": "",
+      "title": "Available May 16",
+      "description": "Venture into the complete Ghost of Tsushima DIRECTOR'S CUT on PC; forge your path through this open-world action adventure.",
+      "price": "Starting at $49.99",
+      "priceTextXS": "Starting at",
+      "priceXS": "$49.99",
+      "discount": "",
+      "button": "pre-purchase now",
+      "addToWishList": "add to wish list"
+    },
+    {
+      "id": 6,
+      "paginationTitle": "GTA Online",
+      "paginationImage": "./public/images/heroSlider/xxl/pagination/image-6.png",
+      "imageXXL": "./public/images/heroSlider/xxl/image-6.png",
+      "logoImage": "./public/images/heroSlider/xxl/logos/image-6.png",
+      "imageXs": "./public/images/heroSlider/xs/image-6.png",
+      "title": "Cluckin’ Bell Farm Raid",
+      "description": "Discover just how deep corruption in Los Santos runs…",
+      "price": "Starting at $29.99",
+      "priceTextXS": "Starting at",
+      "priceXS": "$29.99",
+      "discount": "",
+      "button": "play now",
+      "addToWishList": "add to wish list"
+    }
+  ],
+  "dealsOfWeek": [
+    {
+      "id": 1,
+      "image": "./public/images/deals-of-the-week/image-1.png",
+      "title": "Blazing Sails",
+      "price": 12.79,
+      "discountPercent": 40
+    },
+    {
+      "id": 2,
+      "image": "./public/images/deals-of-the-week/image-2.png",
+      "title": "Anvil Saga",
+      "price": 15.99,
+      "discountPercent": 30
+    },
+    {
+      "id": 3,
+      "image": "./public/images/deals-of-the-week/image-3.png",
+      "title": "Check out all the deals for this week.",
+      "price": "",
+      "discountPercent": ""
+    }
+  ],
+  "freeGames": [
+    {
+      "id": 1,
+      "image": "./public/images/freeGames/image-1.png",
+      "title": "Astro Duel 2",
+      "date": "Free Now - Mar 14 at 04:00 PM",
+      "when": "free now"
+    },
+    {
+      "id": 2,
+      "image": "./public/images/freeGames/image-2.png",
+      "title": "Deus Ex - Mankind Divided",
+      "date": "Free Mar 14 - Mar 21",
+      "when": "coming soon"
+    },
+    {
+      "id": 3,
+      "image": "./public/images/freeGames/image-3.png",
+      "title": "The Bridge",
+      "date": "Free Mar 14 - Mar 21",
+      "when": "coming soon"
+    }
+  ],
+  "gameSection": {
+    "name": "Fortnite Experiences",
+    "data": [
+      {
+        "id": 1,
+        "image": "./public/images/gameSection/image-1.png",
+        "title": "Find it in Fortnite",
+        "description": "A new way to discover what's happening in Fortnite.",
+        "btn": "Discover"
+      },
+      {
+        "id": 2,
+        "image": "./public/images/gameSection/image-2.png",
+        "title": "Fortnite Festival",
+        "description": "Go gaga as the legendary superstar, Lady Gaga, becomes the Icon for Fortnite Festival Season 2: Unlock Your Talent!",
+        "btn": "Play For Free"
+      },
+      {
+        "id": 3,
+        "image": "./public/images/gameSection/image-3.png",
+        "title": "LEGO Fortnite",
+        "description": "The Gone Fishin’ update is quite the catch, with fish, recipes, and tools to help you on your adventure.",
+        "btn": "Play For Free"
+      }
+    ]
+  },
+  "footer": {
+    "socials": [
+      { "id": 1, "name": "faceBook", "svg": "<i class='fa-brands fa-facebook social'></i>" },
+      { "id": 2, "name": "twitter", "svg": "<i class='fa-brands fa-twitter social'></i>" },
+      { "id": 3, "name": "youTube", "svg": "<i class='fa-brands fa-youtube social'></i>" }
+    ],
+    "resources": [
+      { "id": 1, "name": "Support-A-Creator" },
+      { "id": 2, "name": "Fan Art Policy" },
+      { "id": 3, "name": "Online Services" },
+      { "id": 4, "name": "Distribute on Epic Games" },
+      { "id": 5, "name": "UX Research" },
+      { "id": 6, "name": "Community Rules" },
+      { "id": 7, "name": "Careers" },
+      { "id": 8, "name": "Store EULA" },
+      { "id": 9, "name": "Epic Newsroom" },
+      { "id": 10, "name": "Company" }
+    ],
+    "madeBy": [
+      { "id": 1, "name": "Battle Breakers" },
+      { "id": 2, "name": "Robo Recall" },
+      { "id": 3, "name": "Fortnite" },
+      { "id": 4, "name": "Shadow Complex" },
+      { "id": 5, "name": "Infinity Blade" },
+      { "id": 6, "name": "Unreal Tournament" }
+    ],
+    "description": { "id": 1, "des": "© 2024, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. <br/> Our websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. Epic Games has no control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them." }
+  },
+
+  "products": [
+    {
+      "id": 1,
+      "image": "./public/images/products/image-1.png",
+      "type": "base game",
+      "title": "dust fleet",
+      "date": "",
+      "price": 15.99,
+      "discountPercent": 10,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 2,
+      "image": "./public/images/products/image-2.png",
+      "type": "base game",
+      "title": "One Lonely Outpost",
+      "date": "",
+      "price": 15.99,
+      "discountPercent": 10,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 3,
+      "image": "./public/images/products/image-3.png",
+      "type": "base game",
+      "title": "Mars Base",
+      "date": "",
+      "price": 15.99,
+      "discountPercent": 10,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 4,
+      "image": "./public/images/products/image-4.png",
+      "type": "base game",
+      "title": "Chicken vs Eggs",
+      "date": "",
+      "price": 7.99,
+      "discountPercent": 50,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 5,
+      "image": "./public/images/products/image-5.png",
+      "type": "base game",
+      "title": "Broken Pieces",
+      "date": "",
+      "price": 19.99,
+      "discountPercent": 10,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 6,
+      "image": "./public/images/products/image-6.png",
+      "type": "base game",
+      "title": "Metal Mind",
+      "date": "",
+      "price": 14.29,
+      "discountPercent": 15,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 7,
+      "image": "./public/images/products/image-7.png",
+      "type": "base game",
+      "title": "War Mongrels",
+      "date": "",
+      "price": 31.99,
+      "discountPercent": 65,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 8,
+      "image": "./public/images/products/image-8.png",
+      "type": "base game",
+      "title": "Travellers Rest",
+      "date": "",
+      "price": 14.99,
+      "discountPercent": 25,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 9,
+      "image": "./public/images/products/image-9.png",
+      "type": "base game",
+      "title": "Choo-Choo Charles",
+      "date": "",
+      "price": 15.99,
+      "discountPercent": 35,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 10,
+      "image": "./public/images/products/image-10.png",
+      "type": "base game",
+      "title": "Image",
+      "date": "",
+      "price": 7.99,
+      "discountPercent": 35,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 11,
+      "image": "./public/images/products/image-11.png",
+      "type": "base game",
+      "title": "Trigon: Space Story",
+      "date": "",
+      "price": 16.99,
+      "discountPercent": 70,
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 12,
+      "image": "./public/images/products/image-12.png",
+      "type": "base game",
+      "title": "Frostpunk 2",
+      "date": "Available 07/25/24",
+      "price": "",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": "y"
+    },
+    {
+      "id": 13,
+      "image": "./public/images/products/image-13.png",
+      "type": "base game",
+      "title": "Ghost of Tsushima DIRECTOR'S CUT",
+      "date": "Available 05/16/24",
+      "price": "49.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 14,
+      "image": "./public/images/products/image-14.png",
+      "type": "base game",
+      "title": "RENNSPORT",
+      "date": "Coming Soon",
+      "price": "",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 15,
+      "image": "./public/images/products/image-15.png",
+      "type": "base game",
+      "title": "Ratchet & Clank: Rift Apart",
+      "date": "",
+      "price": "49.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 16,
+      "image": "./public/images/products/image-16.png",
+      "type": "base game",
+      "title": "The Outlast Trials",
+      "date": "",
+      "price": "31.69",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 17,
+      "image": "./public/images/products/image-17.png",
+      "type": "base game",
+      "title": "The Bridge",
+      "date": "",
+      "price": "6.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 18,
+      "image": "./public/images/products/image-18.png",
+      "type": "base game",
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "date": "",
+      "price": "39.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 19,
+      "image": "./public/images/products/image-19.png",
+      "type": "base game",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "date": "",
+      "price": "34.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 20,
+      "image": "./public/images/products/image-20.png",
+      "type": "base game",
+      "title": "Battlefield™ 2042",
+      "date": "",
+      "price": "49.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 21,
+      "image": "./public/images/products/image-21.png",
+      "type": "base game",
+      "title": "Astro Duel 2",
+      "date": "",
+      "price": "15.99",
+      "discountPercent": "100",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 22,
+      "image": "./public/images/products/image-22.png",
+      "type": "base game",
+      "title": "Expeditions - A MudRunner Game",
+      "date": "",
+      "price": "34.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "y",
+      "topWish": ""
+    },
+    {
+      "id": 23,
+      "image": "./public/images/products/image-23.png",
+      "type": "base game",
+      "title": "UNCHARTED™: Legacy of Thieves Collection",
+      "date": "",
+      "price": "39.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 24,
+      "image": "./public/images/products/image-24.png",
+      "type": "base game",
+      "title": "The Thaumaturge",
+      "date": "",
+      "price": "29.50",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 25,
+      "image": "./public/images/products/image-25.png",
+      "type": "base game",
+      "title": "Grand Theft Auto V: Premium Edition",
+      "date": "",
+      "price": "29.99",
+      "discountPercent": "",
+      "mostPlay": "y",
+      "topSell": "y",
+      "topWish": ""
+    },
+    {
+      "id": 26,
+      "image": "./public/images/products/image-26.png",
+      "type": "base game",
+      "title": "Watch Dogs Standard Edition",
+      "date": "",
+      "price": "25.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 27,
+      "image": "./public/images/products/image-27.png",
+      "type": "base game",
+      "title": "Touch Type Tale",
+      "date": "",
+      "price": "15.99",
+      "discountPercent": "25",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 28,
+      "image": "./public/images/products/image-28.png",
+      "type": "base game",
+      "title": "Fortnite",
+      "date": "",
+      "price": "Free",
+      "discountPercent": "",
+      "mostPlay": "y",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 29,
+      "image": "./public/images/products/image-29.png",
+      "type": "base game",
+      "title": "Rocket League®",
+      "date": "",
+      "price": "Free",
+      "discountPercent": "",
+      "mostPlay": "y",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 30,
+      "image": "./public/images/products/image-30.png",
+      "type": "base game",
+      "title": "VALORANT",
+      "date": "",
+      "price": "Free",
+      "discountPercent": "",
+      "mostPlay": "y",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 31,
+      "image": "./public/images/products/image-31.png",
+      "type": "base game",
+      "title": "Genshin Impact",
+      "date": "",
+      "price": "Free",
+      "discountPercent": "",
+      "mostPlay": "y",
+      "topSell": "",
+      "topWish": ""
+    },
+    {
+      "id": 32,
+      "image": "./public/images/products/image-32.png",
+      "type": "base game",
+      "title": "Alan Wake 2",
+      "date": "",
+      "price": "39.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "y",
+      "topWish": ""
+    },
+    {
+      "id": 33,
+      "image": "./public/images/products/image-33.png",
+      "type": "base game",
+      "title": "Dead by Daylight",
+      "date": "",
+      "price": "14.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "y",
+      "topWish": ""
+    },
+    {
+      "id": 34,
+      "image": "./public/images/products/image-34.png",
+      "type": "base game",
+      "title": "SKULL AND BONES™",
+      "date": "",
+      "price": "49.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "y",
+      "topWish": ""
+    },
+    {
+      "id": 35,
+      "image": "./public/images/products/image-35.png",
+      "type": "base game",
+      "title": "Black Myth: Wukong",
+      "date": "Available 08/20/24",
+      "price": "",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": "y"
+    },
+    {
+      "id": 36,
+      "image": "./public/images/products/image-36.png",
+      "type": "base game",
+      "title": "Homeworld 3",
+      "date": "Available 05/13/24",
+      "price": "49.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": "y"
+    },
+    {
+      "id": 37,
+      "image": "./public/images/products/image-37.png",
+      "type": "base game",
+      "title": "The Wolf Among Us 2",
+      "date": "Coming Soon",
+      "price": "",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": "y"
+    },
+    {
+      "id": 38,
+      "image": "./public/images/products/image-38.png",
+      "type": "base game",
+      "title": "Horizon Forbidden West™ Complete Edition",
+      "date": "Available 03/21/24",
+      "price": "49.99",
+      "discountPercent": "",
+      "mostPlay": "",
+      "topSell": "",
+      "topWish": "y"
+    }
+  ]
+}
